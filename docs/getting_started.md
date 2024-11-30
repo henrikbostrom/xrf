@@ -12,7 +12,7 @@ pip install xrf
 
 ### Classification forests
 
-Let us start by importing the tic-tac-toe dataset from [openml.org](www.openml.org).
+Let us start by importing the tic-tac-toe dataset from [openml.org](https://www.openml.org).
 
 ```python
 from sklearn.datasets import fetch_openml
@@ -114,7 +114,7 @@ array([[0.23050922, 0.21026052, 0.19812573, 0.18882078, 0.17228375],
 
 ### Regression forests
 
-Let us import the Miami housing dataset from [openml.org](www.openml.org).
+Let us import the Miami housing dataset from [openml.org](https://www.openml.org).
 
 ```python
 from sklearn.datasets import fetch_openml
@@ -184,4 +184,4 @@ True
 
 You are welcome to download and try out `xrf`; you may find the following notebook helpful:
 
-[xrf.ipynb](https://github.com/henrikbostrom/xrf/blob/main/docs/xrf.ipynb)
+[Examples.ipynb](https://github.com/henrikbostrom/xrf/blob/main/docs/Examples.ipynb)
