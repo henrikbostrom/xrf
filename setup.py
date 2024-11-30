@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="xrf",
-    version="0.1.0",
+    version="0.1.1",
     author="Henrik Boström",
     author_email="bostromh@kth.se",
     description="ExPLAINABLE rANDOM fORESTS (xrf)",
@@ -22,6 +22,6 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    install_requires=["numpy", "pandas", "sklearn", "scipy", "joblib"],
+    install_requires=["numpy", "pandas", "scikit-learn", "scipy", "joblib"],
     python_requires=">=3.8",
 )

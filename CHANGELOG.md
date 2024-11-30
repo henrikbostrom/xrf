@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.1 (30/11/2024)
+
+### Fixes
+
+- Updated setup.py to refer to scikit-learn instead of sklearn
+- Updated the documentation
+	
 ## v0.1.0 (30/11/2024)
 
 ### Features
