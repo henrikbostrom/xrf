@@ -13,7 +13,7 @@ Copyright 2024 Henrik Boström
 License: BSD 3 clause
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import numpy as np
 from scipy.sparse import csr_array
