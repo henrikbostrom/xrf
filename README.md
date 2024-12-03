@@ -18,7 +18,7 @@ the training examples. The examples that are used when forming
 predictions can be constrained by their number or by their cumulative
 weight. When not constrained, the predictions are identical to what is
 output by random forest classifiers and regressors as implemented in
-[scikit-learn](https://scikit-learn.org/)
+[scikit-learn](https://scikit-learn.org/).
 
 ## Installation
 
@@ -57,7 +57,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.75)
 ```
 
-Let us now fit an explainable random forest classifier; we can use the same parameters as for standard random forest classifiers as implemented in `scikit-learn`.
+Let us now fit an explainable random forest classifier; we can use the same parameters as for standard random forest classifiers as implemented in [scikit-learn](https://scikit-learn.org/).
 
 ```python
 from xrf import XRandomForestClassifier
