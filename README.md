@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="https://pypi.org/project/xrf/"><img src="https://img.shields.io/badge/pypi package-0.1.1-brightgreen" alt="PyPI version" height=20 align="center"></a>
+<a href="https://pepy.tech/project/xrf"><img src="https://static.pepy.tech/badge/xrf?dummy=unused" alt="Downloads" height=20 align="center"></a>
 <a href="https://xrf.readthedocs.io/en/latest"><img src="https://readthedocs.org/projects/xrf/badge/?version=latest" alt="docs status" height=20 align="center"></a> 
 <a href="https://github.com/henrikbostrom/xrf/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--3--clause-blue" alt="License" height=20 align="center"></a>
 <a href="https://github.com/henrikbostrom/xrf/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/release--date-Nov.%2030,%202024-red" alt="Release date" height=20 align="center"></a>
@@ -10,7 +11,7 @@
 <br>
 
 ``xrf`` is a Python package that implements random forests with 
-example attribution, i.e., the predictions are
+example attribution, i.e., predictions are
 associated with weight distributions over the training examples, where
 each prediction is the scalar product of the weights and targets of
 the training examples. The examples that are used when forming
