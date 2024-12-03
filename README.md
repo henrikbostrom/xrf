@@ -206,6 +206,10 @@ np.allclose(predictions, weighted_predictions)
 True
 ```
 
+### More examples
+
+For more examples, see this [Jupyter notebook](https://github.com/henrikbostrom/xrf/blob/main/docs/Examples.ipynb).
+
 ## Citing xrf
 
 If you use `xrf` for a scientific publication, you are kindly requested to cite the following paper:
