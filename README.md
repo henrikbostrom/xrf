@@ -9,8 +9,8 @@
 
 <br>
 
-``xrf`` is a Python package that implements random forest classifiers
-and regressors with example attribution, i.e., the predictions are
+``xrf`` is a Python package that implements random forests with 
+example attribution, i.e., the predictions are
 associated with weight distributions over the training examples, where
 each prediction is the scalar product of the weights and targets of
 the training examples. The examples that are used when forming
