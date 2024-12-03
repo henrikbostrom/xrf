@@ -14,7 +14,7 @@
 example attribution, i.e., predictions are
 associated with weight distributions over the training examples, where
 each prediction is the scalar product of the weights and targets of
-the training examples. The examples that are used when forming
+the training examples. The examples that are used to form
 predictions can be constrained by their number or by their cumulative
 weight. When not constrained, the predictions are identical to what is
 output by random forest classifiers and regressors as implemented in
