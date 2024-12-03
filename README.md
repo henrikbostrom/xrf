@@ -66,7 +66,7 @@ rfx = XRandomForestClassifier(n_jobs=-1)
 rfx.fit(X_train, y_train)
 ```
 
-We get the predictions in the usual way, using either `predict` or `predict_proba`, here resulting in exactly the same output as the standard random forest classifiers in `scikit-learn`. 
+We get the predictions in the usual way, using either `predict` or `predict_proba`, here resulting in exactly the same output as the standard random forest classifiers in [scikit-learn](https://scikit-learn.org/). 
 
 ```python
 rfx.predict_proba(X_test)
