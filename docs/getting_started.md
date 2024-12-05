@@ -8,6 +8,12 @@ From [PyPI](https://pypi.org/project/xrf/)
 pip install xrf
 ```
 
+From [conda-forge](https://anaconda.org/conda-forge/xrf)
+
+```bash
+conda install conda-forge::xrf
+```
+
 ## Quickstart
 
 ### Classification forests
