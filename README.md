@@ -28,6 +28,12 @@ From [PyPI](https://pypi.org/project/xrf/)
 pip install xrf
 ```
 
+From [conda-forge](https://anaconda.org/conda-forge/xrf)
+
+```bash
+conda install conda-forge::xrf
+```
+
 ## Documentation
 
 For the complete documentation, see [xrf.readthedocs.io](https://xrf.readthedocs.io/en/latest/).
