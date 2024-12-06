@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="https://pypi.org/project/xrf/"><img src="https://img.shields.io/badge/pypi package-0.1.1-brightgreen" alt="PyPI version" height=20 align="center"></a>
+<a href="https://anaconda.org/conda-forge/xrf"><img src="https://img.shields.io/badge/conda--forge-0.1.1-orange" alt="conda-forge version" height=20 align="center"></a>
 <a href="https://pepy.tech/project/xrf"><img src="https://static.pepy.tech/badge/xrf?dummy=unused" alt="Downloads" height=20 align="center"></a>
 <a href="https://xrf.readthedocs.io/en/latest"><img src="https://readthedocs.org/projects/xrf/badge/?version=latest" alt="docs status" height=20 align="center"></a> 
 <a href="https://github.com/henrikbostrom/xrf/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--3--clause-blue" alt="License" height=20 align="center"></a>
