@@ -1,0 +1,17 @@
+name: Generate Sitemap
+   on:
+     push:
+       branches:
+         - main
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Checkout the repo
+           uses: actions/checkout@v3
+           with:
+             fetch-depth: 0
+         - name: Generate Sitemap
+           uses: cicirello/generate-sitemap@v1
+           with:
+             base-url-path: "https://github.com/henrikbostrom/xrf" 
